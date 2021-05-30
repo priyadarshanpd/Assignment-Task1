@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   //change#1
   //change#2
-  const msg = 'Hello Node!\n'
+  const msg = 'Hello World!\n'
   res.end(msg);
 });
 
